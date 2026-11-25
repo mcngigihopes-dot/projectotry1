@@ -1,0 +1,1648 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAISON VOLTAIRE | Colección de Bolsos — Paris</title>
+  <meta name="description" content="Explora la colección de bolsos de cuero y estilo rock-chic parisino de Maison Voltaire.">
+
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts: Tipografía Editorial & Minimalista -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       1. VARIABLES & ESTILOS BASE (PALETA NEUTRA PARISINA)
+       ========================================================================== */
+    :root {
+      --color-black: #0f0f0f;
+      --color-charcoal: #262626;
+      --color-gray-dark: #595959;
+      --color-gray-muted: #8c8c8c;
+      --color-gray-border: #e2e0dc;
+      --color-beige: #f4f1ea;
+      --color-beige-dark: #e6e0d4;
+      --color-white: #ffffff;
+      --font-serif: 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --transition-smooth: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    html {
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      color: var(--color-black);
+      background-color: var(--color-white);
+      overflow-x: hidden;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, .font-editorial {
+      font-family: var(--font-serif);
+      letter-spacing: -0.01em;
+    }
+
+    .letter-spacing-wide {
+      letter-spacing: 0.18em;
+    }
+
+    .letter-spacing-mid {
+      letter-spacing: 0.1em;
+    }
+
+    /* Botones minimalistas */
+    .btn-noir {
+      background-color: var(--color-black);
+      color: var(--color-white);
+      border: 1px solid var(--color-black);
+      border-radius: 0;
+      padding: 0.75rem 1.85rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      transition: var(--transition-smooth);
+    }
+
+    .btn-noir:hover, .btn-noir:focus {
+      background-color: transparent;
+      color: var(--color-black);
+      border-color: var(--color-black);
+    }
+
+    .btn-outline-noir {
+      background-color: transparent;
+      color: var(--color-black);
+      border: 1px solid var(--color-black);
+      border-radius: 0;
+      padding: 0.7rem 1.65rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      transition: var(--transition-smooth);
+    }
+
+    .btn-outline-noir:hover, .btn-outline-noir:focus {
+      background-color: var(--color-black);
+      color: var(--color-white);
+    }
+
+    .btn-light-editorial {
+      background-color: var(--color-white);
+      color: var(--color-black);
+      border: 1px solid var(--color-white);
+      border-radius: 0;
+      padding: 0.85rem 2.2rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      transition: var(--transition-smooth);
+    }
+
+    .btn-light-editorial:hover {
+      background-color: transparent;
+      color: var(--color-white);
+    }
+
+    /* ==========================================================================
+       2. HEADER & NAVEGACIÓN
+       ========================================================================== */
+    .top-announcement {
+      background-color: var(--color-black);
+      color: var(--color-white);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 0.45rem 1rem;
+    }
+
+    .navbar-voltaire {
+      background-color: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--color-gray-border);
+      padding: 1rem 0;
+      transition: var(--transition-smooth);
+    }
+
+    .brand-logo {
+      font-family: var(--font-serif);
+      font-weight: 700;
+      font-size: 1.65rem;
+      letter-spacing: 0.22em;
+      color: var(--color-black);
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .brand-sub {
+      display: block;
+      font-family: var(--font-sans);
+      font-size: 0.58rem;
+      letter-spacing: 0.35em;
+      text-align: center;
+      color: var(--color-gray-dark);
+      margin-top: -4px;
+    }
+
+    .nav-link-editorial {
+      font-size: 0.78rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      color: var(--color-black) !important;
+      padding: 0.5rem 1rem !important;
+      position: relative;
+    }
+
+    .nav-link-editorial::after {
+      content: '';
+      position: absolute;
+      bottom: 0.2rem;
+      left: 1rem;
+      right: 1rem;
+      height: 1px;
+      background-color: var(--color-black);
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+
+    .nav-link-editorial:hover::after,
+    .nav-link-editorial:focus::after {
+      transform: scaleX(1);
+    }
+
+    .icon-action-btn {
+      background: none;
+      border: none;
+      color: var(--color-black);
+      font-size: 1.15rem;
+      position: relative;
+      padding: 0.35rem 0.5rem;
+      transition: opacity 0.2s ease;
+    }
+
+    .icon-action-btn:hover {
+      opacity: 0.65;
+    }
+
+    .badge-counter {
+      position: absolute;
+      top: 0;
+      right: -2px;
+      background-color: var(--color-black);
+      color: var(--color-white);
+      font-size: 0.62rem;
+      font-weight: 600;
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* ==========================================================================
+       3. PORTADA (HERO SECTION)
+       ========================================================================== */
+    .hero-section {
+      position: relative;
+      height: 86vh;
+      min-height: 560px;
+      max-height: 880px;
+      background-color: var(--color-charcoal);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-bg-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 30%;
+      filter: brightness(0.62) contrast(1.05);
+      transform: scale(1.02);
+      transition: transform 8s ease-out;
+    }
+
+    .hero-section:hover .hero-bg-img {
+      transform: scale(1.06);
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(15, 15, 15, 0.72) 0%, rgba(15, 15, 15, 0.25) 60%, rgba(15, 15, 15, 0.4) 100%);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      color: var(--color-white);
+      max-width: 640px;
+    }
+
+    .hero-title {
+      font-size: clamp(2.6rem, 5.5vw, 4.6rem);
+      font-weight: 400;
+      line-height: 1.08;
+      margin-bottom: 1.25rem;
+    }
+
+    /* ==========================================================================
+       4. NOVEDADES (NEW ARRIVALS)
+       ========================================================================== */
+    .section-padding {
+      padding: 5.5rem 0;
+    }
+
+    .bg-beige-soft {
+      background-color: var(--color-beige);
+    }
+
+    .novelty-card {
+      position: relative;
+      overflow: hidden;
+      background-color: var(--color-white);
+      border: 1px solid var(--color-gray-border);
+      transition: var(--transition-smooth);
+    }
+
+    .novelty-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    .novelty-img-wrap {
+      aspect-ratio: 4 / 5;
+      overflow: hidden;
+      background-color: #efede8;
+    }
+
+    .novelty-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.65s ease;
+    }
+
+    .novelty-card:hover .novelty-img-wrap img {
+      transform: scale(1.05);
+    }
+
+    .tag-editorial {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      background-color: var(--color-white);
+      color: var(--color-black);
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.65rem;
+      z-index: 2;
+    }
+
+    /* ==========================================================================
+       5. CATÁLOGO & FILTROS
+       ========================================================================== */
+    .filter-toolbar {
+      background-color: var(--color-beige);
+      border: 1px solid var(--color-gray-border);
+      padding: 1.5rem;
+      margin-bottom: 2.75rem;
+    }
+
+    .form-control-editorial,
+    .form-select-editorial {
+      border-radius: 0;
+      border: 1px solid var(--color-gray-border);
+      background-color: var(--color-white);
+      font-size: 0.85rem;
+      padding: 0.65rem 0.9rem;
+      color: var(--color-black);
+    }
+
+    .form-control-editorial:focus,
+    .form-select-editorial:focus {
+      border-color: var(--color-black);
+      box-shadow: none;
+    }
+
+    .product-card {
+      background-color: var(--color-white);
+      transition: var(--transition-smooth);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-img-container {
+      position: relative;
+      aspect-ratio: 3 / 4;
+      background-color: #f3f1ed;
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+
+    .product-img-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .product-card:hover .product-img-container img {
+      transform: scale(1.06);
+    }
+
+    .btn-wishlist-card {
+      position: absolute;
+      top: 0.85rem;
+      right: 0.85rem;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-black);
+      transition: var(--transition-smooth);
+      z-index: 3;
+    }
+
+    .btn-wishlist-card:hover {
+      background-color: var(--color-black);
+      color: var(--color-white);
+    }
+
+    .btn-wishlist-card.active {
+      color: #b02a37;
+    }
+
+    .btn-wishlist-card.active:hover {
+      color: #ff6b7a;
+    }
+
+    .quick-add-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(15, 15, 15, 0.92);
+      color: var(--color-white);
+      border: none;
+      padding: 0.7rem;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover .quick-add-bar,
+    .product-card:focus-within .quick-add-bar {
+      transform: translateY(0);
+    }
+
+    @media (max-width: 767.98px) {
+      .quick-add-bar {
+        transform: translateY(0);
+        position: relative;
+        margin-top: auto;
+      }
+    }
+
+    .color-dot {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 1px solid rgba(0, 0, 0, 0.25);
+      vertical-align: middle;
+    }
+
+    /* ==========================================================================
+       6. COLECCIONES & ABOUT US
+       ========================================================================== */
+    .collection-banner {
+      position: relative;
+      height: 440px;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+      padding: 2.25rem;
+      color: var(--color-white);
+      cursor: pointer;
+    }
+
+    .collection-banner img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.68);
+      transition: transform 0.7s ease;
+    }
+
+    .collection-banner:hover img {
+      transform: scale(1.05);
+    }
+
+    .collection-banner-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .about-quote {
+      font-family: var(--font-serif);
+      font-size: 1.75rem;
+      font-style: italic;
+      line-height: 1.4;
+      border-left: 2px solid var(--color-black);
+      padding-left: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    /* ==========================================================================
+       7. OFFCANVAS (CARRITO & FAVORITOS) & TOASTS
+       ========================================================================== */
+    .offcanvas-editorial {
+      border-left: 1px solid var(--color-gray-border);
+      width: 420px !important;
+      max-width: 100vw;
+    }
+
+    .cart-item-img {
+      width: 72px;
+      height: 92px;
+      object-fit: cover;
+      background-color: var(--color-beige);
+    }
+
+    .qty-control {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid var(--color-gray-border);
+    }
+
+    .qty-control button {
+      background: none;
+      border: none;
+      width: 28px;
+      height: 28px;
+      font-size: 0.85rem;
+      color: var(--color-black);
+    }
+
+    .qty-control button:hover {
+      background-color: var(--color-beige);
+    }
+
+    .qty-control span {
+      padding: 0 0.65rem;
+      font-size: 0.82rem;
+      font-weight: 500;
+    }
+
+    /* ==========================================================================
+       8. FOOTER
+       ========================================================================== */
+    .footer-noir {
+      background-color: var(--color-black);
+      color: var(--color-white);
+      padding-top: 4.5rem;
+      padding-bottom: 2.5rem;
+    }
+
+    .footer-link {
+      color: #b5b5b5;
+      text-decoration: none;
+      font-size: 0.84rem;
+      display: inline-block;
+      margin-bottom: 0.55rem;
+      transition: color 0.2s ease;
+    }
+
+    .footer-link:hover {
+      color: var(--color-white);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========================================================================
+       SECCIÓN: HEADER & BARRA DE NAVEGACIÓN
+       ======================================================================== -->
+  <div class="top-announcement text-center">
+    Envío cortesía en pedidos superiores a $350 USD  |  Colección Automne-Hiver Paris
+  </div>
+
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-voltaire" aria-label="Navegación principal">
+      <div class="container">
+        <!-- Marca -->
+        <a class="brand-logo" href="#inicio" aria-label="Maison Voltaire Inicio">
+          VOLTAIRE
+          <span class="brand-sub">PARIS</span>
+        </a>
+
+        <!-- Iconos de acción en móvil + botón hamburguesa -->
+        <div class="d-flex align-items-center gap-2 order-lg-3">
+          <a href="#catalogo" class="icon-action-btn" aria-label="Buscar en catálogo" title="Buscar">
+            <i class="bi bi-search"></i>
+          </a>
+          <button class="icon-action-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWishlist" aria-controls="offcanvasWishlist" aria-label="Abrir lista de favoritos" title="Favoritos">
+            <i class="bi bi-heart"></i>
+            <span class="badge-counter" id="wishlist-count">0</span>
+          </button>
+          <button class="icon-action-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart" aria-controls="offcanvasCart" aria-label="Abrir bolsa de compras" title="Carrito">
+            <i class="bi bi-bag"></i>
+            <span class="badge-counter" id="cart-count">0</span>
+          </button>
+          <button class="navbar-toggler border-0 shadow-none ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Alternar menú de navegación">
+            <i class="bi bi-list fs-3 text-dark"></i>
+          </button>
+        </div>
+
+        <!-- Enlaces de navegación -->
+        <div class="collapse navbar-collapse justify-content-center order-lg-2" id="mainNavbar">
+          <ul class="navbar-nav my-3 my-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link nav-link-editorial" href="#novedades">Novedades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-editorial" href="#catalogo">Bolsos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-editorial" href="#colecciones">Colecciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-editorial" href="#about">La Maison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-editorial" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         SECCIÓN: PORTADA (HERO)
+         ====================================================================== -->
+    <section id="inicio" class="hero-section" aria-label="Portada principal">
+      <img 
+        src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1920&q=85" 
+        alt="Modelo sosteniendo bolso de cuero negro estructurado estilo parisino" 
+        class="hero-bg-img"
+        onerror="this.onerror=null;this.src='https://placehold.co/1920x1080/1c1c1c/f4f1ea?text=MAISON+VOLTAIRE+PARIS';">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <p class="text-uppercase letter-spacing-wide small mb-3 text-light opacity-75">
+            L’Esprit Rive Gauche • Nueva Temporada
+          </p>
+          <h1 class="hero-title">
+            Elegancia rebelde en piel graneada.
+          </h1>
+          <p class="lead fw-light mb-4 text-light opacity-90" style="font-size: 1.05rem;">
+            Siluetas arquitectónicas, cadenas metálicas cepilladas y cuero italiano curtido artesanalmente. Diseñados en París para acompañarte del día a la noche.
+          </p>
+          <div class="d-flex flex-wrap gap-3 pt-2">
+            <a href="#catalogo" class="btn btn-light-editorial">Explorar Colección</a>
+            <a href="#novedades" class="btn btn-outline-light rounded-0 px-4 py-3 text-uppercase small letter-spacing-mid">Ver Novedades</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECCIÓN: NOVEDADES (NEW ARRIVALS)
+         ====================================================================== -->
+    <section id="novedades" class="section-padding bg-beige-soft">
+      <div class="container">
+        <div class="row align-items-end mb-5">
+          <div class="col-md-8">
+            <span class="text-uppercase small letter-spacing-wide text-muted d-block mb-2">Recién llegados</span>
+            <h2 class="display-5 mb-0">Novedades de Temporada</h2>
+          </div>
+          <div class="col-md-4 text-md-end mt-3 mt-md-0">
+            <a href="#catalogo" class="text-dark text-uppercase small letter-spacing-mid text-decoration-none border-bottom border-dark pb-1">
+              Ver los 12 modelos <i class="bi bi-arrow-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <!-- Novedad 1 -->
+          <div class="col-md-4">
+            <article class="novelty-card h-100">
+              <span class="tag-editorial">Nuevo</span>
+              <div class="novelty-img-wrap">
+                <img 
+                  src="https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&w=800&q=80" 
+                  alt="Bolso Le Cecilia Noir en piel suave negra"
+                  onerror="this.onerror=null;this.src='https://placehold.co/800x1000/e6e0d4/1a1a1a?text=Le+Cecilia+Noir';">
+              </div>
+              <div class="p-4">
+                <p class="small text-uppercase text-muted letter-spacing-mid mb-1">Icono Renovado</p>
+                <h3 class="h4 mb-2">Le Cecilia Noir</h3>
+                <p class="small text-secondary mb-3">Piel de becerro flexible con hebilla metálica escultórica y correa ajustable.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="fw-semibold">$690 USD</span>
+                  <button class="btn btn-outline-noir btn-sm py-2 px-3" onclick="addToCart(1)">Añadir al carrito</button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Novedad 2 -->
+          <div class="col-md-4">
+            <article class="novelty-card h-100">
+              <span class="tag-editorial">Edición Limitada</span>
+              <div class="novelty-img-wrap">
+                <img 
+                  src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=80" 
+                  alt="Bolso Rocky Crème con doble cadena plateada"
+                  onerror="this.onerror=null;this.src='https://placehold.co/800x1000/e6e0d4/1a1a1a?text=Rocky+Creme';">
+              </div>
+              <div class="p-4">
+                <p class="small text-uppercase text-muted letter-spacing-mid mb-1">Rock-Chic</p>
+                <h3 class="h4 mb-2">Rocky Crème</h3>
+                <p class="small text-secondary mb-3">Acabado en tono arena marfil con doble cadena desmontable de eslabones.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="fw-semibold">$540 USD</span>
+                  <button class="btn btn-outline-noir btn-sm py-2 px-3" onclick="addToCart(2)">Añadir al carrito</button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Novedad 3 -->
+          <div class="col-md-4">
+            <article class="novelty-card h-100">
+              <span class="tag-editorial">Exclusivo Online</span>
+              <div class="novelty-img-wrap">
+                <img 
+                  src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?auto=format&fit=crop&w=800&q=80" 
+                  alt="Clutch Rock Nano Gris Perla"
+                  onerror="this.onerror=null;this.src='https://placehold.co/800x1000/e6e0d4/1a1a1a?text=Rock+Nano+Gris';">
+              </div>
+              <div class="p-4">
+                <p class="small text-uppercase text-muted letter-spacing-mid mb-1">Noche Parisina</p>
+                <h3 class="h4 mb-2">Rock Nano Gris</h3>
+                <p class="small text-secondary mb-3">Formato compacto con alas emblemáticas en metal envejecido y cierre imantado.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="fw-semibold">$420 USD</span>
+                  <button class="btn btn-outline-noir btn-sm py-2 px-3" onclick="addToCart(3)">Añadir al carrito</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECCIÓN: CATÁLOGO COMPLETO CON BUSCADOR Y FILTROS COMBINABLES
+         ====================================================================== -->
+    <section id="catalogo" class="section-padding">
+      <div class="container">
+        <div class="text-center max-w-2xl mx-auto mb-5">
+          <span class="text-uppercase small letter-spacing-wide text-muted d-block mb-2">Marroquinería</span>
+          <h2 class="display-5 mb-3">Catálogo de Bolsos</h2>
+          <p class="text-secondary mx-auto" style="max-width: 580px;">
+            Explora nuestras 12 piezas esenciales. Filtra por silueta, tonalidad neutra o rango de inversión para encontrar tu compañero ideal.
+          </p>
+        </div>
+
+        <!-- Barra de Buscador y Filtros -->
+        <div class="filter-toolbar" role="region" aria-label="Filtros del catálogo">
+          <div class="row g-3 align-items-end">
+            <!-- Buscador por nombre -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <label for="searchInput" class="form-label small text-uppercase letter-spacing-mid fw-semibold">Buscar modelo</label>
+              <div class="input-group">
+                <span class="input-group-text bg-white border-end-0 rounded-0" style="border-color: var(--color-gray-border);">
+                  <i class="bi bi-search text-muted"></i>
+                </span>
+                <input type="search" id="searchInput" class="form-control form-control-editorial border-start-0" placeholder="Ej. Cecilia, Rocky, Kate, Tote...">
+              </div>
+            </div>
+
+            <!-- Filtro por Categoría -->
+            <div class="col-6 col-md-3 col-lg-2">
+              <label for="categoryFilter" class="form-label small text-uppercase letter-spacing-mid fw-semibold">Categoría</label>
+              <select id="categoryFilter" class="form-select form-select-editorial">
+                <option value="all">Todas</option>
+                <option value="Bandolera">Bandoleras</option>
+                <option value="Tote">Totes & Shoppers</option>
+                <option value="Clutch">Clutches</option>
+                <option value="Mini">Mini Bolsos</option>
+              </select>
+            </div>
+
+            <!-- Filtro por Color -->
+            <div class="col-6 col-md-3 col-lg-2">
+              <label for="colorFilter" class="form-label small text-uppercase letter-spacing-mid fw-semibold">Color</label>
+              <select id="colorFilter" class="form-select form-select-editorial">
+                <option value="all">Todos</option>
+                <option value="Negro">Negro</option>
+                <option value="Beige">Beige / Arena</option>
+                <option value="Gris">Gris / Topo</option>
+                <option value="Blanco">Blanco / Marfil</option>
+              </select>
+            </div>
+
+            <!-- Filtro por Precio -->
+            <div class="col-8 col-md-6 col-lg-2">
+              <label for="priceFilter" class="form-label small text-uppercase letter-spacing-mid fw-semibold">Precio</label>
+              <select id="priceFilter" class="form-select form-select-editorial">
+                <option value="all">Todos los precios</option>
+                <option value="under450">Menos de $450</option>
+                <option value="450to650">$450 – $650</option>
+                <option value="over650">Más de $650</option>
+              </select>
+            </div>
+
+            <!-- Botón Reiniciar -->
+            <div class="col-4 col-md-6 col-lg-2">
+              <button type="button" id="resetFiltersBtn" class="btn btn-outline-noir w-100 py-2">
+                Limpiar
+              </button>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-between align-items-center mt-3 pt-2 border-top" style="border-color: rgba(0,0,0,0.08) !important;">
+            <span class="small text-muted" id="resultsCount">Mostrando 12 bolsos</span>
+            <span class="small text-muted d-none d-sm-inline">Piel 100% certificada LWG</span>
+          </div>
+        </div>
+
+        <!-- Cuadrícula de Productos -->
+        <div class="row g-4" id="productsGrid">
+          <!-- Renderizado dinámicamente mediante JavaScript -->
+        </div>
+
+        <!-- Mensaje Estado Vacío -->
+        <div id="emptyResultsMessage" class="text-center py-5 my-4 d-none border" style="border-color: var(--color-gray-border) !important;">
+          <i class="bi bi-bag-x fs-1 text-muted mb-3 d-block"></i>
+          <h3 class="h4">No encontramos bolsos con esa combinación</h3>
+          <p class="text-secondary small mb-4">Intenta ajustar los filtros de color, categoría o precio, o busca otro nombre.</p>
+          <button type="button" class="btn btn-noir" onclick="resetAllFilters()">Ver toda la colección</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECCIÓN: COLECCIONES DESTACADAS
+         ====================================================================== -->
+    <section id="colecciones" class="section-padding bg-beige-soft">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="text-uppercase small letter-spacing-wide text-muted d-block mb-2">Universos Estéticos</span>
+          <h2 class="display-5">Nuestras Colecciones</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="collection-banner" onclick="filterByCollection('Bandolera')" role="button" tabindex="0" aria-label="Explorar colección Rock Icons">
+              <img 
+                src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1000&q=80" 
+                alt="Colección Rock Icons - Bolsos bandolera con cadenas"
+                onerror="this.onerror=null;this.src='https://placehold.co/1000x700/262626/ffffff?text=ROCK+ICONS';">
+              <div class="collection-banner-content">
+                <span class="text-uppercase small letter-spacing-wide d-block mb-1 opacity-75">Esenciales</span>
+                <h3 class="h2 mb-2">Rock Icons & Bandoleras</h3>
+                <p class="small mb-3 opacity-90">Cadenas metálicas, piel granulada y actitud desenfadada para llevar cruzado.</p>
+                <span class="text-uppercase small letter-spacing-mid border-bottom border-white pb-1">Filtrar colección →</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="collection-banner" onclick="filterByCollection('Tote')" role="button" tabindex="0" aria-label="Explorar colección Rive Gauche Totes">
+              <img 
+                src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=1000&q=80" 
+                alt="Colección Rive Gauche - Bolsos Tote amplios"
+                onerror="this.onerror=null;this.src='https://placehold.co/1000x700/3a3632/ffffff?text=RIVE+GAUCHE+TOTES';">
+              <div class="collection-banner-content">
+                <span class="text-uppercase small letter-spacing-wide d-block mb-1 opacity-75">Arquitectura</span>
+                <h3 class="h2 mb-2">Rive Gauche Totes</h3>
+                <p class="small mb-3 opacity-90">Volúmenes generosos en tonos beige y negro para la vida urbana contemporánea.</p>
+                <span class="text-uppercase small letter-spacing-mid border-bottom border-white pb-1">Filtrar colección →</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECCIÓN: ABOUT US (LA MAISON)
+         ====================================================================== -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <img 
+                src="https://images.unsplash.com/photo-1559563458-527698bf5295?auto=format&fit=crop&w=950&q=85" 
+                alt="Taller artesanal de marroquinería en París" 
+                class="img-fluid w-100"
+                style="aspect-ratio: 4/4.5; object-fit: cover;"
+                onerror="this.onerror=null;this.src='https://placehold.co/900x1000/f4f1ea/1a1a1a?text=ATELIER+PARIS';">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <span class="text-uppercase small letter-spacing-wide text-muted d-block mb-2">Savoir-Faire Parisino</span>
+            <h2 class="display-5 mb-4">El lujo sin ostentación.</h2>
+            <p class="text-secondary mb-3">
+              Fundada en el corazón de París, <strong>Maison Voltaire</strong> nace de la dualidad entre la sastrería clásica francesa y el espíritu libre del rock contemporáneo. Cada bolso es concebido como una pieza de carácter: suave al tacto, estructurado en su forma y atemporal en su paleta cromática.
+            </p>
+            <blockquote class="about-quote">
+              “Un bolso no debe completar un atuendo; debe definir la actitud de quien lo lleva.”
+            </blockquote>
+            <p class="text-secondary mb-4">
+              Trabajamos exclusivamente con curtidurías familiares en Italia y Francia que garantizan trazabilidad completa y procesos responsables, logrando pieles que envejecen con nobleza año tras año.
+            </p>
+            <div class="row g-3 pt-2 border-top" style="border-color: var(--color-gray-border) !important;">
+              <div class="col-4">
+                <span class="font-editorial fs-2 d-block">100%</span>
+                <span class="small text-muted text-uppercase letter-spacing-mid">Piel Italiana</span>
+              </div>
+              <div class="col-4">
+                <span class="font-editorial fs-2 d-block">Paris</span>
+                <span class="small text-muted text-uppercase letter-spacing-mid">Diseño Original</span>
+              </div>
+              <div class="col-4">
+                <span class="font-editorial fs-2 d-block">2 Años</span>
+                <span class="small text-muted text-uppercase letter-spacing-mid">Garantía Atelier</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECCIÓN: CONTACTO & ATENCIÓN PERSONALIZADA
+         ====================================================================== -->
+    <section id="contacto" class="section-padding bg-beige-soft border-top" style="border-color: var(--color-gray-border) !important;">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <span class="text-uppercase small letter-spacing-wide text-muted d-block mb-2">Concierge</span>
+            <h2 class="display-6 mb-3">Atención Personalizada</h2>
+            <p class="text-secondary mb-4">
+              ¿Necesitas asesoría sobre tamaños, cuidados de la piel o disponibilidad en boutique? Nuestro equipo en París responderá a tu consulta en menos de 24 horas.
+            </p>
+            <ul class="list-unstyled small text-secondary space-y-2">
+              <li class="mb-3">
+                <strong class="text-dark text-uppercase letter-spacing-mid d-block">Flagship Boutique</strong>
+                24 Rue Cambon, 75001 Paris, Francia
+              </li>
+              <li class="mb-3">
+                <strong class="text-dark text-uppercase letter-spacing-mid d-block">Horario</strong>
+                Lunes a Sábado: 10:30 – 19:30 CET
+              </li>
+              <li class="mb-3">
+                <strong class="text-dark text-uppercase letter-spacing-mid d-block">Contacto Directo</strong>
+                concierge@maisonvoltaire-paris.com • +33 1 42 68 55 00
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="bg-white p-4 p-md-5 border" style="border-color: var(--color-gray-border) !important;">
+              <form id="contactForm" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="contactName" class="form-label small text-uppercase letter-spacing-mid">Nombre completo *</label>
+                    <input type="text" class="form-control form-control-editorial" id="contactName" required placeholder="Camille Laurent">
+                    <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="contactEmail" class="form-label small text-uppercase letter-spacing-mid">Correo electrónico *</label>
+                    <input type="email" class="form-control form-control-editorial" id="contactEmail" required placeholder="camille@ejemplo.com">
+                    <div class="invalid-feedback">Ingresa un correo electrónico válido.</div>
+                  </div>
+                  <div class="col-12">
+                    <label for="contactSubject" class="form-label small text-uppercase letter-spacing-mid">Asunto</label>
+                    <select id="contactSubject" class="form-select form-select-editorial">
+                      <option value="Consulta de producto">Consulta sobre un bolso</option>
+                      <option value="Cita en boutique">Cita privada en boutique</option>
+                      <option value="Cuidado y mantenimiento">Cuidado de marroquinería</option>
+                      <option value="Otro">Otro motivo</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label for="contactMessage" class="form-label small text-uppercase letter-spacing-mid">Mensaje *</label>
+                    <textarea class="form-control form-control-editorial" id="contactMessage" rows="4" required minlength="10" placeholder="Escribe tu consulta aquí..."></textarea>
+                    <div class="invalid-feedback">Por favor, escribe un mensaje de al menos 10 caracteres.</div>
+                  </div>
+                  <div class="col-12 pt-2">
+                    <button type="submit" class="btn btn-noir">Enviar Mensaje</button>
+                  </div>
+                </div>
+              </form>
+
+              <!-- Confirmación de envío -->
+              <div id="contactSuccessAlert" class="alert alert-dark rounded-0 mt-4 mb-0 d-none" role="alert">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-check2-circle fs-4 me-3"></i>
+                  <div>
+                    <strong class="d-block text-uppercase small letter-spacing-mid">Mensaje recibido</strong>
+                    <span class="small">Gracias por contactar con Maison Voltaire. Un asesor se comunicará contigo a la brevedad.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       SECCIÓN: FOOTER
+       ======================================================================== -->
+  <footer class="footer-noir">
+    <div class="container">
+      <div class="row g-4 pb-5 border-bottom border-secondary border-opacity-25">
+        <div class="col-lg-4 pe-lg-5">
+          <a href="#inicio" class="brand-logo text-white d-inline-block mb-3">
+            VOLTAIRE
+            <span class="brand-sub text-white-50 text-start">PARIS</span>
+          </a>
+          <p class="small text-white-50 mb-4">
+            Elegancia minimalista e irreverencia parisina. Colecciones de marroquinería diseñadas para trascender las tendencias efímeras.
+          </p>
+          <div class="d-flex gap-3">
+            <a href="#inicio" class="text-white-50 fs-5" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#inicio" class="text-white-50 fs-5" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
+            <a href="#inicio" class="text-white-50 fs-5" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <h3 class="h6 text-uppercase letter-spacing-mid mb-3">Colección</h3>
+          <ul class="list-unstyled">
+            <li><a href="#novedades" class="footer-link">Novedades</a></li>
+            <li><a href="#catalogo" class="footer-link" onclick="filterByCollection('Bandolera')">Bandoleras</a></li>
+            <li><a href="#catalogo" class="footer-link" onclick="filterByCollection('Tote')">Totes</a></li>
+            <li><a href="#catalogo" class="footer-link" onclick="filterByCollection('Clutch')">Clutches</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <h3 class="h6 text-uppercase letter-spacing-mid mb-3">La Maison</h3>
+          <ul class="list-unstyled">
+            <li><a href="#about" class="footer-link">Nuestra Historia</a></li>
+            <li><a href="#about" class="footer-link">Savoir-Faire</a></li>
+            <li><a href="#contacto" class="footer-link">Boutiques</a></li>
+            <li><a href="#contacto" class="footer-link">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-lg-4">
+          <h3 class="h6 text-uppercase letter-spacing-mid mb-3">Newsletter Privada</h3>
+          <p class="small text-white-50 mb-3">
+            Recibe acceso anticipado a ventas privadas y lanzamientos exclusivos de edición limitada.
+          </p>
+          <form id="newsletterForm" class="d-flex">
+            <input type="email" id="newsletterEmail" class="form-control rounded-0 bg-transparent text-white border-secondary small" placeholder="Tu correo electrónico" required aria-label="Correo para newsletter">
+            <button type="submit" class="btn btn-light rounded-0 text-uppercase small letter-spacing-mid px-3">Unirse</button>
+          </form>
+          <p id="newsletterFeedback" class="small text-light mt-2 d-none">Suscripción confirmada. Bienvenida a la Maison.</p>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center pt-4 small text-white-50">
+        <p class="mb-2 mb-sm-0">© 2026 Maison Voltaire Paris. Todos los derechos reservados.</p>
+        <div class="d-flex gap-4">
+          <a href="#contacto" class="footer-link mb-0">Privacidad</a>
+          <a href="#contacto" class="footer-link mb-0">Términos</a>
+          <a href="#contacto" class="footer-link mb-0">Envíos y Devoluciones</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       PANEL LATERAL (OFFCANVAS): LISTA DE FAVORITOS
+       ======================================================================== -->
+  <div class="offcanvas offcanvas-end offcanvas-editorial" tabindex="-1" id="offcanvasWishlist" aria-labelledby="offcanvasWishlistLabel">
+    <div class="offcanvas-header border-bottom" style="border-color: var(--color-gray-border) !important;">
+      <h2 class="offcanvas-title h5 text-uppercase letter-spacing-mid mb-0" id="offcanvasWishlistLabel">
+        Favoritos (<span id="wishlist-header-count">0</span>)
+      </h2>
+      <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Cerrar favoritos"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column">
+      <div id="wishlistItemsContainer" class="flex-grow-1">
+        <!-- Renderizado dinámicamente -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       PANEL LATERAL (OFFCANVAS): CARRITO DE COMPRAS
+       ======================================================================== -->
+  <div class="offcanvas offcanvas-end offcanvas-editorial" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCartLabel">
+    <div class="offcanvas-header border-bottom" style="border-color: var(--color-gray-border) !important;">
+      <h2 class="offcanvas-title h5 text-uppercase letter-spacing-mid mb-0" id="offcanvasCartLabel">
+        Bolsa de Compras (<span id="cart-header-count">0</span>)
+      </h2>
+      <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Cerrar carrito"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column">
+      <div id="cartItemsContainer" class="flex-grow-1 overflow-auto pe-1">
+        <!-- Renderizado dinámicamente -->
+      </div>
+
+      <!-- Resumen de totales del carrito -->
+      <div id="cartSummaryFooter" class="border-top pt-3 mt-3 d-none" style="border-color: var(--color-gray-border) !important;">
+        <div class="d-flex justify-content-between small mb-2">
+          <span class="text-muted">Subtotal</span>
+          <span id="cartSubtotal" class="fw-medium">$0 USD</span>
+        </div>
+        <div class="d-flex justify-content-between small mb-2">
+          <span class="text-muted">Envío Express Paris</span>
+          <span id="cartShipping" class="text-dark">Cortesía</span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center border-top pt-2 mb-3" style="border-color: var(--color-gray-border) !important;">
+          <span class="text-uppercase small letter-spacing-mid fw-semibold">Total Estimado</span>
+          <span id="cartTotal" class="fs-5 fw-semibold">$0 USD</span>
+        </div>
+        <button type="button" id="checkoutBtn" class="btn btn-noir w-100 py-3">
+          Finalizar Pedido
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       NOTIFICACIÓN FLOTANTE (TOAST)
+       ======================================================================== -->
+  <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 1080;">
+    <div id="actionToast" class="toast align-items-center text-bg-dark border-0 rounded-0" role="status" aria-live="polite" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body small letter-spacing-mid" id="toastMessage">
+          Producto añadido a tu bolsa.
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto shadow-none" data-bs-dismiss="toast" aria-label="Cerrar notificación"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 JS Bundle CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <script>
+    /* ==========================================================================
+       1. BASE DE DATOS EN MEMORIA: 12 BOLSOS ESTILO PARISINO
+       ========================================================================== */
+    const products = [
+      {
+        id: 1,
+        name: "Le Cecilia Noir",
+        category: "Bandolera",
+        color: "Negro",
+        colorHex: "#141414",
+        price: 690,
+        badge: "Icono",
+        image: "https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        id: 2,
+        name: "Rocky Crème",
+        category: "Bandolera",
+        color: "Beige",
+        colorHex: "#e6dec8",
+        price: 540,
+        badge: "Nuevo",
+        image: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        id: 3,
+        name: "Rock Nano Gris",
+        category: "Clutch",
+        color: "Gris",
+        colorHex: "#8d8d8d",
+        price: 420,
+        badge: "Nuevo",
+        image: "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        id: 4,
+        name: "Kate Wallet Chain",
+        category: "Clutch",
+        color: "Negro",
+        colorHex: "#141414",
+        price: 390,
+        badge: "",
+        image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        id: 5,
+        name: "Sunny Medium Sand",
+        category: "Tote",
+        color: "Beige",
+        colorHex: "#d9ccb8",
+        price: 720,
+        badge: "Bestseller",
+        image: "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        id: 6,
+        name: "Zadig Cabas Noir",
+        category: "Tote",
+        color: "Negro",
+        colorHex: "#141414",
+        price: 650,
+        badge: "",
+        image: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        id: 7,
+        name: "Initiale Mini Ivoire",
+        category: "Mini",
+        color: "Blanco",
+        colorHex: "#f7f6f2",
+        price: 460,
+        badge: "",
+        image: "https://images.unsplash.com/photo-1575032617751-6ddec2089882?auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        id: 8,
+        name: "Voltaire Box Taupe",
+        category: "Bandolera",
+        color: "Gris",
+        colorHex: "#7c7770",
+        price: 595,
+        badge: "",
+        image: "https://images.unsplash.com/photo-1614179689702-355944cd0918?auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        id: 9,
+        name: "Rock Savage Blanc",
+        category: "Clutch",
+        color: "Blanco",
+        colorHex: "#f7f6f2",
+        price: 440,
+        badge: "Edición Limitada",
+        image: "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        id: 10,
+        name: "Roméo Mini Noir",
+        category: "Mini",
+        color: "Negro",
+        colorHex: "#141414",
+        price: 410,
+        badge: "",
+        image: "https://images.unsplash.com/photo-1605733513597-a8f8341084e6?auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        id: 11,
+        name: "Shopper Rive Gauche",
+        category: "Tote",
+        color: "Gris",
+        colorHex: "#9e9e9e",
+        price: 580,
+        badge: "",
+        image: "https://images.unsplash.com/photo-1590739225287-bd31519780c3?auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        id: 12,
+        name: "Le Cecilia Mini Beige",
+        category: "Mini",
+        color: "Beige",
+        colorHex: "#e3d9c6",
+        price: 520,
+        badge: "Nuevo",
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=750&q=80"
+      }
+    ];
+
+    /* ==========================================================================
+       2. ESTADO DE LA APLICACIÓN (FAVORITOS, CARRITO Y FILTROS)
+       ========================================================================== */
+    let wishlist = []; // Array de IDs de productos
+    let cart = [];     // Array de objetos { id, quantity }
+
+    let currentFilters = {
+      search: "",
+      category: "all",
+      color: "all",
+      price: "all"
+    };
+
+    // Referencias DOM
+    const productsGrid = document.getElementById("productsGrid");
+    const resultsCount = document.getElementById("resultsCount");
+    const emptyResultsMessage = document.getElementById("emptyResultsMessage");
+
+    const searchInput = document.getElementById("searchInput");
+    const categoryFilter = document.getElementById("categoryFilter");
+    const colorFilter = document.getElementById("colorFilter");
+    const priceFilter = document.getElementById("priceFilter");
+    const resetFiltersBtn = document.getElementById("resetFiltersBtn");
+
+    /* ==========================================================================
+       3. RENDERIZADO Y FILTRADO DEL CATÁLOGO
+       ========================================================================== */
+    function getFilteredProducts() {
+      return products.filter(product => {
+        // Búsqueda por nombre
+        const matchesSearch = product.name.toLowerCase().includes(currentFilters.search.trim().toLowerCase());
+        // Categoría
+        const matchesCategory = currentFilters.category === "all" || product.category === currentFilters.category;
+        // Color
+        const matchesColor = currentFilters.color === "all" || product.color === currentFilters.color;
+        // Precio
+        let matchesPrice = true;
+        if (currentFilters.price === "under450") {
+          matchesPrice = product.price < 450;
+        } else if (currentFilters.price === "450to650") {
+          matchesPrice = product.price >= 450 && product.price <= 650;
+        } else if (currentFilters.price === "over650") {
+          matchesPrice = product.price > 650;
+        }
+
+        return matchesSearch && matchesCategory && matchesColor && matchesPrice;
+      });
+    }
+
+    function renderProducts() {
+      const filtered = getFilteredProducts();
+
+      // Actualizar contador
+      resultsCount.textContent = filtered.length === 1
+        ? "Mostrando 1 bolso"
+        : `Mostrando ${filtered.length} bolsos`;
+
+      if (filtered.length === 0) {
+        productsGrid.innerHTML = "";
+        emptyResultsMessage.classList.remove("d-none");
+        return;
+      }
+
+      emptyResultsMessage.classList.add("d-none");
+
+      productsGrid.innerHTML = filtered.map(product => {
+        const isFav = wishlist.includes(product.id);
+        const fallbackUrl = `https://placehold.co/600x800/f4f1ea/141414?text=${encodeURIComponent(product.name)}`;
+
+        return `
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <article class="product-card">
+              <div class="product-img-container">
+                ${product.badge ? `<span class="tag-editorial">${product.badge}</span>` : ""}
+                <button 
+                  type="button" 
+                  class="btn-wishlist-card ${isFav ? "active" : ""}" 
+                  onclick="toggleWishlist(${product.id})"
+                  aria-label="${isFav ? "Quitar de favoritos" : "Añadir a favoritos"}: ${product.name}"
+                  title="${isFav ? "Quitar de favoritos" : "Guardar en favoritos"}">
+                  <i class="bi ${isFav ? "bi-heart-fill" : "bi-heart"}"></i>
+                </button>
+                <img 
+                  src="${product.image}" 
+                  alt="Bolso ${product.name} color ${product.color}" 
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='${fallbackUrl}';">
+                <button type="button" class="quick-add-bar" onclick="addToCart(${product.id})">
+                  + Añadir a la bolsa
+                </button>
+              </div>
+              <div class="d-flex justify-content-between align-items-start mt-1">
+                <div>
+                  <span class="small text-uppercase text-muted d-block" style="font-size: 0.7rem; letter-spacing: 0.1em;">
+                    ${product.category}
+                  </span>
+                  <h3 class="h6 mb-1 fw-medium">${product.name}</h3>
+                  <div class="small text-muted">
+                    <span class="color-dot me-1" style="background-color: ${product.colorHex};"></span>
+                    ${product.color}
+                  </div>
+                </div>
+                <span class="fw-semibold small">$${product.price}</span>
+              </div>
+            </article>
+          </div>
+        `;
+      }).join("");
+    }
+
+    // Eventos de filtros y buscador
+    searchInput.addEventListener("input", (e) => {
+      currentFilters.search = e.target.value;
+      renderProducts();
+    });
+
+    categoryFilter.addEventListener("change", (e) => {
+      currentFilters.category = e.target.value;
+      renderProducts();
+    });
+
+    colorFilter.addEventListener("change", (e) => {
+      currentFilters.color = e.target.value;
+      renderProducts();
+    });
+
+    priceFilter.addEventListener("change", (e) => {
+      currentFilters.price = e.target.value;
+      renderProducts();
+    });
+
+    function resetAllFilters() {
+      currentFilters = { search: "", category: "all", color: "all", price: "all" };
+      searchInput.value = "";
+      categoryFilter.value = "all";
+      colorFilter.value = "all";
+      priceFilter.value = "all";
+      renderProducts();
+    }
+
+    resetFiltersBtn.addEventListener("click", resetAllFilters);
+
+    // Filtro rápido desde sección Colecciones o Footer
+    function filterByCollection(categoryName) {
+      resetAllFilters();
+      currentFilters.category = categoryName;
+      categoryFilter.value = categoryName;
+      renderProducts();
+      document.getElementById("catalogo").scrollIntoView({ behavior: "smooth" });
+    }
+
+    /* ==========================================================================
+       4. GESTIÓN DE FAVORITOS (WISHLIST)
+       ========================================================================== */
+    function toggleWishlist(productId) {
+      const index = wishlist.indexOf(productId);
+      const product = products.find(p => p.id === productId);
+
+      if (index === -1) {
+        wishlist.push(productId);
+        showToast(`"${product.name}" guardado en tus favoritos.`);
+      } else {
+        wishlist.splice(index, 1);
+        showToast(`"${product.name}" eliminado de favoritos.`);
+      }
+
+      renderProducts();
+      renderWishlist();
+    }
+
+    function renderWishlist() {
+      const container = document.getElementById("wishlistItemsContainer");
+      const badge = document.getElementById("wishlist-count");
+      const headerCount = document.getElementById("wishlist-header-count");
+
+      badge.textContent = wishlist.length;
+      headerCount.textContent = wishlist.length;
+
+      if (wishlist.length === 0) {
+        container.innerHTML = `
+          <div class="text-center py-5 my-auto">
+            <i class="bi bi-heart fs-1 text-muted mb-3 d-block"></i>
+            <h3 class="h6 text-uppercase letter-spacing-mid">Tu lista está vacía</h3>
+            <p class="small text-muted mb-4">Guarda tus piezas favoritas pulsando el icono del corazón en el catálogo.</p>
+            <button type="button" class="btn btn-outline-noir btn-sm" data-bs-dismiss="offcanvas">Explorar bolsos</button>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = wishlist.map(id => {
+        const item = products.find(p => p.id === id);
+        if (!item) return "";
+        const fallbackUrl = `https://placehold.co/200x260/f4f1ea/141414?text=${encodeURIComponent(item.name)}`;
+
+        return `
+          <div class="d-flex gap-3 py-3 border-bottom" style="border-color: var(--color-gray-border) !important;">
+            <img src="${item.image}" alt="${item.name}" class="cart-item-img" onerror="this.onerror=null;this.src='${fallbackUrl}';">
+            <div class="flex-grow-1">
+              <div class="d-flex justify-content-between">
+                <h4 class="h6 mb-1">${item.name}</h4>
+                <button type="button" class="btn btn-link text-muted p-0 small" onclick="toggleWishlist(${item.id})" aria-label="Eliminar de favoritos">
+                  <i class="bi bi-x-lg"></i>
+                </button>
+              </div>
+              <p class="small text-muted mb-2">${item.color} • $${item.price} USD</p>
+              <button type="button" class="btn btn-noir btn-sm py-1 px-3" onclick="moveWishlistToCart(${item.id})">
+                Mover a la bolsa
+              </button>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function moveWishlistToCart(productId) {
+      addToCart(productId);
+    }
+
+    /* ==========================================================================
+       5. GESTIÓN DEL CARRITO DE COMPRAS
+       ========================================================================== */
+    function addToCart(productId) {
+      const existingItem = cart.find(item => item.id === productId);
+      const product = products.find(p => p.id === productId);
+
+      if (existingItem) {
+        existingItem.quantity += 1;
+      } else {
+        cart.push({ id: productId, quantity: 1 });
+      }
+
+      renderCart();
+      showToast(`"${product.name}" añadido a tu bolsa.`);
+    }
+
+    function updateCartQuantity(productId, delta) {
+      const itemIndex = cart.findIndex(item => item.id === productId);
+      if (itemIndex === -1) return;
+
+      cart[itemIndex].quantity += delta;
+
+      if (cart[itemIndex].quantity <= 0) {
+        cart.splice(itemIndex, 1);
+      }
+
+      renderCart();
+    }
+
+    function removeFromCart(productId) {
+      cart = cart.filter(item => item.id !== productId);
+      renderCart();
+    }
+
+    function renderCart() {
+      const container = document.getElementById("cartItemsContainer");
+      const footer = document.getElementById("cartSummaryFooter");
+      const badge = document.getElementById("cart-count");
+      const headerCount = document.getElementById("cart-header-count");
+      const subtotalEl = document.getElementById("cartSubtotal");
+      const shippingEl = document.getElementById("cartShipping");
+      const totalEl = document.getElementById("cartTotal");
+
+      const totalUnits = cart.reduce((acc, item) => acc + item.quantity, 0);
+      badge.textContent = totalUnits;
+      headerCount.textContent = totalUnits;
+
+      if (cart.length === 0) {
+        footer.classList.add("d-none");
+        container.innerHTML = `
+          <div class="text-center py-5 my-auto">
+            <i class="bi bi-bag fs-1 text-muted mb-3 d-block"></i>
+            <h3 class="h6 text-uppercase letter-spacing-mid">Tu bolsa está vacía</h3>
+            <p class="small text-muted mb-4">Descubre nuestra selección de bolsos de piel y añade tus imprescindibles.</p>
+            <button type="button" class="btn btn-noir btn-sm" data-bs-dismiss="offcanvas">Descubrir colección</button>
+          </div>
+        `;
+        return;
+      }
+
+      footer.classList.remove("d-none");
+
+      let subtotal = 0;
+
+      container.innerHTML = cart.map(cartEntry => {
+        const product = products.find(p => p.id === cartEntry.id);
+        if (!product) return "";
+        const itemTotal = product.price * cartEntry.quantity;
+        subtotal += itemTotal;
+        const fallbackUrl = `https://placehold.co/200x260/f4f1ea/141414?text=${encodeURIComponent(product.name)}`;
+
+        return `
+          <div class="d-flex gap-3 py-3 border-bottom" style="border-color: var(--color-gray-border) !important;">
+            <img src="${product.image}" alt="${product.name}" class="cart-item-img" onerror="this.onerror=null;this.src='${fallbackUrl}';">
+            <div class="flex-grow-1">
+              <div class="d-flex justify-content-between align-items-start">
+                <h4 class="h6 mb-1">${product.name}</h4>
+                <button type="button" class="btn btn-link text-muted p-0 small" onclick="removeFromCart(${product.id})" aria-label="Eliminar producto">
+                  <i class="bi bi-trash3"></i>
+                </button>
+              </div>
+              <p class="small text-muted mb-2">${product.color} • $${product.price} c/u</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="qty-control" role="group" aria-label="Cantidad de ${product.name}">
+                  <button type="button" onclick="updateCartQuantity(${product.id}, -1)" aria-label="Disminuir cantidad">−</button>
+                  <span>${cartEntry.quantity}</span>
+                  <button type="button" onclick="updateCartQuantity(${product.id}, 1)" aria-label="Aumentar cantidad">+</button>
+                </div>
+                <span class="fw-semibold small">$${itemTotal.toLocaleString()}</span>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join("");
+
+      const shippingCost = subtotal >= 350 ? 0 : 25;
+      const finalTotal = subtotal + shippingCost;
+
+      subtotalEl.textContent = `$${subtotal.toLocaleString()} USD`;
+      shippingEl.textContent = shippingCost === 0 ? "Cortesía" : `$${shippingCost} USD`;
+      totalEl.textContent = `$${finalTotal.toLocaleString()} USD`;
+    }
+
+    // Simulación de compra
+    document.getElementById("checkoutBtn").addEventListener("click", () => {
+      if (cart.length === 0) return;
+      cart = [];
+      renderCart();
+      const cartOffcanvasEl = document.getElementById("offcanvasCart");
+      const offcanvasInstance = bootstrap.Offcanvas.getInstance(cartOffcanvasEl);
+      if (offcanvasInstance) offcanvasInstance.hide();
+      showToast("¡Gracias por tu pedido! Recibirás la confirmación por correo.");
+    });
+
+    /* ==========================================================================
+       6. UTILIDADES: TOAST, FORMULARIO DE CONTACTO Y NEWSLETTER
+       ========================================================================== */
+    function showToast(message) {
+      const toastEl = document.getElementById("actionToast");
+      const toastBody = document.getElementById("toastMessage");
+      toastBody.textContent = message;
+      const toast = bootstrap.Toast.getOrCreateInstance(toastEl, { delay: 2600 });
+      toast.show();
+    }
+
+    // Validación del formulario de contacto
+    const contactForm = document.getElementById("contactForm");
+    const contactSuccessAlert = document.getElementById("contactSuccessAlert");
+
+    contactForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+
+      if (!contactForm.checkValidity()) {
+        contactForm.classList.add("was-validated");
+        return;
+      }
+
+      contactForm.classList.remove("was-validated");
+      contactForm.reset();
+      contactSuccessAlert.classList.remove("d-none");
+
+      setTimeout(() => {
+        contactSuccessAlert.classList.add("d-none");
+      }, 6000);
+    });
+
+    // Newsletter Footer
+    document.getElementById("newsletterForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const input = document.getElementById("newsletterEmail");
+      const feedback = document.getElementById("newsletterFeedback");
+      if (input.value.trim()) {
+        input.value = "";
+        feedback.classList.remove("d-none");
+        setTimeout(() => feedback.classList.add("d-none"), 4500);
+      }
+    });
+
+    // Cerrar menú móvil automáticamente al hacer clic en un enlace
+    document.querySelectorAll("#mainNavbar .nav-link").forEach(link => {
+      link.addEventListener("click", () => {
+        const navbarCollapse = document.getElementById("mainNavbar");
+        if (navbarCollapse.classList.contains("show")) {
+          const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+          if (bsCollapse) bsCollapse.hide();
+        }
+      });
+    });
+
+    // Inicialización al cargar la página
+    document.addEventListener("DOMContentLoaded", () => {
+      renderProducts();
+      renderWishlist();
+      renderCart();
+    });
+  </script>
+</body>
+</html>
